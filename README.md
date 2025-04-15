@@ -11,21 +11,11 @@ Ideal for learning, testing, and Wi-Fi security demonstrations.
 
 ---
 
-## 📚 Documentation
-
-Check out [Deauther.com](https://deauther.com) for in-depth guides and tutorials.
-
-Quick links:
-- [🛒 Buy a Pre-built Device](https://deauther.com/docs/buy)
-- [⬇️ Download Firmware](https://deauther.com/docs/download)
-- [🛠 DIY Tutorial](https://deauther.com/docs/category/diy-tutorial)
-- [📖 How to Use](https://deauther.com/docs/category/usage)
-- [❓ FAQ](https://deauther.com/docs/faq)
-
 ---
 
 ## 🔑 Default WiFi Access Point
 
+- **IP TO ACCESS THE GUI :** `192.168.4.1`
 - **SSID:** `pwned`  
 - **Password:** `deauther`
 
@@ -66,4 +56,4 @@ Make sure you have:
 
 ---
 
-Let me know if you'd like this saved as a `README.md` file, or if you're also making hardware (like a 3D-printed case or custom PCB), I can add that section too!
+#Let me know if you'd like this saved as a `README.md` file, or if you're also making hardware (like a 3D-printed case or custom PCB), I can add that section too!
