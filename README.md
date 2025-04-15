@@ -1,38 +1,69 @@
-# ESP8266 Deauther
 
-<img src='https://deauther.com/img/logo.png' alt='Deauther Logo' width='200' />
 
-**Scan for WiFi devices, block selected connections, create dozens of networks and confuse WiFi scanners.**
+---
 
-## New Documentation
+# 🔓 ESP32 WiFi Deauther
 
-Hi 👋  
-Please visit [Deauther.com](https://deauther.com) for information about this project.  
-Here are some quick links:
+<img src="https://deauther.com/img/logo.png" alt="Deauther Logo" width="200" />
 
-* [Buy](https://deauther.com/docs/buy)
-* [Download](https://deauther.com/docs/download)
-* [DIY Tutorial](https://deauther.com/docs/category/diy-tutorial)
-* [Usage](https://deauther.com/docs/category/usage)
-* [FAQ](https://deauther.com/docs/faq)
+**Scan for nearby Wi-Fi networks, identify connected clients, and send deauthentication packets to disconnect them — all using ESP32.**  
+Ideal for learning, testing, and Wi-Fi security demonstrations.
 
-## Password
+---
 
-The password for `pwned` is `deauther`
+## 📚 Documentation
 
-## About this Project
+Check out [Deauther.com](https://deauther.com) for in-depth guides and tutorials.
 
-This firmware allows you to easily perform a variety of actions to test 802.11 networks using an [ESP8266](https://www.espressif.com/en/products/socs/esp8266). It's also a great project for learning about WiFi, microcontrollers, Arduino, hacking and electronics/programming in general.  
+Quick links:
+- [🛒 Buy a Pre-built Device](https://deauther.com/docs/buy)
+- [⬇️ Download Firmware](https://deauther.com/docs/download)
+- [🛠 DIY Tutorial](https://deauther.com/docs/category/diy-tutorial)
+- [📖 How to Use](https://deauther.com/docs/category/usage)
+- [❓ FAQ](https://deauther.com/docs/faq)
 
-The deauthentication attack is the main feature, which can be used to disconnect devices from their WiFi network.  
-Although this denial-of-service attack is nothing new, a lot of devices are still vulnerable to it. Luckily this is slowly changing with more WiFi 6 enabled devices being used. But a lot of outdated WiFi devices remain in place, for example in cheap IoT hardware.
-With an ESP8266 Deauther, you can easily test this attack on your 2.4GHz WiFi network/devices and see whether it's successful or not. And if it is, you know you should upgrade your network.
+---
 
-## Disclaimer
+## 🔑 Default WiFi Access Point
 
-This project is a proof of concept for testing and educational purposes.  
-Neither the ESP8266, nor its SDK was meant or built for such purposes. **Bugs can occur!**  
+- **SSID:** `pwned`  
+- **Password:** `deauther`
 
-**Use it only against your own networks and devices!**  
-Please check the legal regulations in your country before using it.  
-We don't take any responsibility for what you do with this program.  
+> Connect to this AP and access the web interface (if supported on your build).
+
+---
+
+## 💡 About This Project
+
+This project brings Wi-Fi testing and deauthentication capabilities to the **ESP32** platform.  
+It’s an extended version of the original ESP8266 Deauther, modified to support ESP32 boards and tailored for cybersecurity labs, education, and testing outdated or vulnerable 802.11b/g/n Wi-Fi devices.
+
+### Features:
+- Scan nearby access points and clients
+- Launch deauth attacks to disconnect specific devices
+- Flood area with fake access points
+- CLI or Web UI (optional)
+- LED status indicators (optional)
+
+---
+
+## ⚠️ Disclaimer
+
+This tool is intended strictly for **educational and authorized testing** only.
+
+**Use it only on networks you own or have explicit permission to test.**  
+Check your local laws before running any form of wireless attack.  
+We are not responsible for misuse or illegal activities conducted with this firmware.
+
+---
+
+## 🔧 Getting Started
+
+Make sure you have:
+- ESP32 board
+- Arduino IDE / PlatformIO
+- Installed required libraries (like `WiFi.h`, `ESPAsyncWebServer`, etc.)
+
+---
+
+Let me know if you'd like this saved as a `README.md` file, or if you're also making hardware (like a 3D-printed case or custom PCB), I can add that section too!
